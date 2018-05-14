@@ -326,7 +326,6 @@ class CreditCardInput extends Component<Props, State> {
               }}
               autoComplete="cc-number"
               className={`credit-card-input ${inputClassName}`}
-              pattern="[0-9]*"
               placeholder="Card number"
               type="text"
               component="input"
@@ -344,7 +343,6 @@ class CreditCardInput extends Component<Props, State> {
               }}
               autoComplete="cc-exp"
               className={`credit-card-input ${inputClassName}`}
-              pattern="[0-9]*"
               placeholder="MM / YY"
               type="text"
               component="input"
@@ -363,7 +361,6 @@ class CreditCardInput extends Component<Props, State> {
               }}
               autoComplete="cc-csc"
               className={`credit-card-input ${inputClassName}`}
-              pattern="[0-9]*"
               placeholder="CVC"
               type="text"
               component="input"
